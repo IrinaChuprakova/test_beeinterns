@@ -1,0 +1,10 @@
+.topbar-nav__list-item {
+  margin-left: 28px;
+}
+
+.topbar-nav__list-item:first-child {
+  margin-left: 0;
+}
+.topbar-nav__list-item:last-child {
+  margin-right: 28px;
+}

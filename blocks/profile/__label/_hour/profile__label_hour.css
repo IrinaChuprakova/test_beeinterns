@@ -1,0 +1,5 @@
+.profile__label_hour{
+    display: flex;
+    align-items: center;
+    padding: 3px 9px 3px 3px;
+}

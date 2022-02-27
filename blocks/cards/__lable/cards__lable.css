@@ -1,0 +1,14 @@
+.cards__lable {
+  background: #6f6eff;
+  border-radius: 3px;
+  position: absolute;
+  top: 19px;
+  left: 21px;
+  width: 50px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 12px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

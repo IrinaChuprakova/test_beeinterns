@@ -1,0 +1,10 @@
+.sidebar__button{
+    width: 10px;
+    height: 6px;
+    background: url("../../../image/button-leftbar.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    border: none;
+    transform: rotate(180deg);
+}

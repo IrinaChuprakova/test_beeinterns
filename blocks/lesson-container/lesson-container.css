@@ -1,0 +1,9 @@
+.lesson-container{
+margin-top: 60px;
+}
+.lesson-container:first-child{
+    margin-top: 40px;
+}
+.lesson-container:last-child{
+    margin-bottom: 40px;
+}

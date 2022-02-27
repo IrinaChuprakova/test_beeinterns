@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page">
+
+    <header class="header">
+        <div class="header__box">
+            <nav class="topbar-nav">
+                <ul class="topbar-nav__list list">
+                    <li class="topbar-nav__list-item"> <a class="topbar-nav__link" href="#">FAQ</a> </li>
+                    <li class="topbar-nav__list-item"> <a class="topbar-nav__link" href="#">Поддержка</a> </li>
+                    <li class="topbar-nav__list-item"> <a class="topbar-nav__link" href="#">Настройки</a> </li>
+                </ul>
+            </nav>
+            <div class="profile">
+                <div class="profile__progress">
+                    <p class="profile__label">15 готовых дз</p>
+                    <p class="profile__label">18 лекций</p>
+                    <p class="profile__label profile__label_hour"> <span class="profile__energy"></span> <span class="profile__label_accent">1200 </span> <span class="profile__label_accent">часов</span> </p>
+                </div>
+                <div class="profile__info">
+                    <img src="../image/profile-picture.png" alt="Аватар">
+                    <div class="profile__box">
+                        <p class="profile__name">Вася Пупкин</p>
+                        <p class="profile__colorstatus"> <span class="profile__colorstatus_activ"></span> Online</p>
+                    </div>
+                    <p class="profile__status">PRO</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <aside class="sidebar">
+        <div class="sidebar__header">
+            <img src="../image/logo.svg" alt="" class="sidebar__logo">
+        </div>
+        <nav class="sidebar__nav">
+            <ul class="sidebar__menu list">
+                <li class=""> <a href="#" class="link"><span>ПРОГРАММА</span> <button class="sidebar__button"></button>
+                    </a>
+                    <ul class="sidebar__submenu list">
+                        <li class="">МЕНТОРЫ</li>
+                        <li class="">ЛЕКЦИИ <button class="sidebar__button"></button>
+                            <ul class="sidebar__submenu list">
+                                <li class=""> <a href="#" class="link"> <img src=""> HTML/CSS</a> </li>
+                                <li class=""> <a href="#" class="link"> <img src=""> GIT</a> </li>
+                                <li class=""> <a href="#" class="link"> <img src=""> JavaScript</a> </li>
+                                <li class=""> <a href="#" class="link"> <img src=""> React</a> </li>
+                                <li class=""> <a href="#" class="link"> <img src=""> Angular</a> </li>
+                                <li class=""> <a href="#" class="link"> <img src=""> Data</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class=""> <a href="#" class="link">ПРАВИЛА ПОСТУПЛЕНИЯ</a> </li>
+                <li class=""> <a href="#" class="link">НОВОСТИ</a> </li>
+                <li class=""> <a href="#" class="link">ОБРАТНАЯ СВЯЗЬ</a> </li>
+            </ul>
+        </nav>
+        <div class="sidebar__footer">
+            <p class="sidebar__text">Получать рассылку</p>
+
+            <label class="sidebar__switch">
+                <input class="sidebar__checkbox" type="checkbox">
+                <span class="sidebar__slider round"></span>
+            </label>
+        </div>
+    </aside>
+
+    <div class="wrapper">
+        <main class="main">
+            <div class="lesson-container">
+                <div class="lesson-container__header">
+                    <div class="lesson-container__topic">
+                        <p class="lesson-container__level">Базовый уровень</p>
+                        <h2 class="lesson-container__title">HTML/CSS</h2>
+                    </div>
+
+                    <div class="lesson-container__button-box">
+                        <buttton class="lesson-container__button button" type="buttton">Все лекции</buttton>
+                        <buttton class="lesson-container__direction" type="buttton"> </buttton>
+                        <buttton class="lesson-container__direction" type="buttton"> </buttton>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <ul class="cards__list list">
+                        <li class="cards__item">
+                            <div class="cards__lable"> <span>Лекция</span> </div>
+                            <img src="../image/lesson1.jpg" alt="Обложка для лекции" class="cards__img">
+                            <div class="cards__info">
+                                <h3 class="cards__title"> Структура HTML </h3>
+                                <p class="cards__description">Назначение блоков: head, body</p>
+                            </div>
+                            <div class="cards__footer">
+                                <p class="cards__date">01.02.2022</p>
+                                <button class="cards__button button" type="button">Смотреть</button>
+                            </div>
+                        </li>
+
+                        <li class="cards__item">
+                            <div class="cards__lable"> <span>Лекция</span> </div>
+                            <img src="../image/lesson1.jpg" alt="Обложка для лекции" class="cards__img">
+                            <div class="cards__info">
+                                <h3 class="cards__title"> Подключение стилей </h3>
+                                <p class="cards__description">Виды подключения стилей. Подключение шрифтов</p>
+                            </div>
+                            <div class="cards__footer">
+                                <p class="cards__date">03.02.2022</p>
+                                <button class="cards__button button" type="button">Смотреть</button>
+                            </div>
+                        </li>
+
+                        <li class="cards__item">
+                            <div class="cards__lable"> <span>Лекция</span> </div>
+                            <img src="../image/lesson1.jpg" alt="Обложка для лекции" class="cards__img">
+                            <div class="cards__info">
+                                <h3 class="cards__title"> CSS </h3>
+                                <p class="cards__description">Базовый синтаксис CSS: селекторы, классы</p>
+                            </div>
+                            <div class="cards__footer">
+                                <p class="cards__date">08.02.2022</p>
+                                <button class="cards__button button" type="button">Смотреть</button>
+                            </div>
+                        </li>
+
+                        <li class="cards__item">
+                            <div class="cards__lable"> <span>Лекция</span> </div>
+                            <img src="../image/lesson1.jpg" alt="Обложка для лекции" class="cards__img">
+                            <div class="cards__info">
+                                <h3 class="cards__title"> Наследие и каскад </h3>
+                                <p class="cards__description">Наследие и каскад/p>
+                            </div>
+                            <div class="cards__footer">
+                                <p class="cards__date">10.02.2022</p>
+                                <button class="cards__button button" type="button">Смотреть</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="lesson-container">
+                <div class="lesson-container__header">
+                    <div class="lesson-container__topic">
+                        <p class="lesson-container__level">Продвинутый уровень</p>
+                        <h2 class="lesson-container__title">HTML/CSS</h2>
+                    </div>
+
+                    <div class="lesson-container__button-box">
+                        <buttton class="lesson-container__button button" type="buttton">Все лекции</buttton>
+                        <buttton class="lesson-container__direction" type="buttton"> </buttton>
+                        <buttton class="lesson-container__direction" type="buttton"> </buttton>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <ul class="cards__list list">
+                        <li class="cards__item">
+                            <div class="cards__lable"> <span>Лекция</span> </div>
+                            <img src="../image/lesson1.jpg" alt="Обложка для лекции" class="cards__img">
+                            <div class="cards__info">
+                                <h3 class="cards__title"> HTML-формы </h3>
+                                <p class="cards__description">HTML-формы</p>
+                            </div>
+                            <div class="cards__footer">
+                                <p class="cards__date">14.02.2022</p>
+                                <button class="cards__button button" type="button">Смотреть</button>
+                            </div>
+                        </li>
+
+                        <li class="cards__item">
+                            <div class="cards__lable"> <span>Лекция</span> </div>
+                            <img src="../image/lesson1.jpg" alt="Обложка для лекции" class="cards__img">
+                            <div class="cards__info">
+                                <h3 class="cards__title"> Flex </h3>
+                                <p class="cards__description">Принципы современной верстки сайта на flex</p>
+                            </div>
+                            <div class="cards__footer">
+                                <p class="cards__date">16.02.2022</p>
+                                <button class="cards__button button" type="button">Смотреть</button>
+                            </div>
+                        </li>
+
+                        <li class="cards__item">
+                            <div class="cards__lable"> <span>Лекция</span> </div>
+                            <img src="../image/lesson1.jpg" alt="Обложка для лекции" class="cards__img">
+                            <div class="cards__info">
+                                <h3 class="cards__title">Media и viewport  </h3>
+                                <p class="cards__description">Адаптивная верстка. Использование media и viewport</p>
+                            </div>
+                            <div class="cards__footer">
+                                <p class="cards__date">18.02.2022</p>
+                                <button class="cards__button button" type="button">Смотреть</button>
+                            </div>
+                        </li>
+
+                        <li class="cards__item">
+                            <div class="cards__lable"> <span>Лекция</span> </div>
+                            <img src="../image/lesson1.jpg" alt="Обложка для лекции" class="cards__img">
+                            <div class="cards__info">
+                                <h3 class="cards__title"> CSS Grid </h3>
+                                <p class="cards__description">CSS Grid</p>
+                            </div>
+                            <div class="cards__footer">
+                                <p class="cards__date">.02.2022</p>
+                                <button class="cards__button button" type="button">Смотреть</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </main>
+    </div>
+<script src="../scripts/script.js"> </script>
+</body>
+
+</html>

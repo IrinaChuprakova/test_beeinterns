@@ -1,0 +1,13 @@
+.profile__label {
+  border-radius: 5px;
+  background-color: rgb(59, 60, 73);
+  padding: 7px 9px;
+  margin-right: 10px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 10px;
+}
+
+.profile__label:last-child {
+  margin-right: 14px;
+}

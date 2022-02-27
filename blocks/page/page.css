@@ -1,0 +1,10 @@
+.page{
+    background: rgb(46, 47, 61);
+    color: #fff;
+    font-family: "Jost", "Arial", sans-serif;
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}

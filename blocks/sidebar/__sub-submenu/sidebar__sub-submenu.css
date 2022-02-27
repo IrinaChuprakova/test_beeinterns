@@ -1,0 +1,6 @@
+.sidebar__sub-submenu {
+  display: none;
+  font-size: 14px;
+  line-height: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}

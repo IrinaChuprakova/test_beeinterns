@@ -1,0 +1,4 @@
+.lesson-container__header{
+    display: flex;
+    justify-content: space-between;
+}

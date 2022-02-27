@@ -1,0 +1,7 @@
+.sidebar {
+  max-width: 280px;
+  width: 100%;
+  background: rgba(156, 165, 236, 0.04);
+  position: fixed;
+  z-index: 2;
+}

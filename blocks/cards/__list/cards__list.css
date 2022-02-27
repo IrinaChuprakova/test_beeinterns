@@ -1,0 +1,5 @@
+.cards__list{
+    display: grid;
+    Grid-template-columns: repeat(auto-fit,255px);
+    column-gap: 10px;
+}

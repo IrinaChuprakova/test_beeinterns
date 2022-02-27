@@ -1,0 +1,16 @@
+.lesson-container__direction {
+  background-image: url("../../../image/left.svg");
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.lesson-container__direction:last-of-type {
+  background-image: url("../../../image/right.svg");
+  margin: 0;
+}

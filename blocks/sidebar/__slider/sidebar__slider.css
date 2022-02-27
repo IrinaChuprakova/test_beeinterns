@@ -1,0 +1,34 @@
+.sidebar__slider {
+  position: absolute;
+  cursor: pointer;
+  top: 6px;
+  left: 6px;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  border-radius: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 42px;
+  height: 22px;
+}
+
+.sidebar__slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.sidebar__slider.round {
+  border-radius: 34px;
+}
+
+.sidebar__slider.round:before {
+  border-radius: 50%;
+}

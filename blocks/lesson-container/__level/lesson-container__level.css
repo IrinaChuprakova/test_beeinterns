@@ -1,0 +1,9 @@
+.lesson-container__level {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.4;
+
+}

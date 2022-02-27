@@ -1,0 +1,4 @@
+.lesson-container__topic{
+    display: flex;
+    flex-direction: column;
+}

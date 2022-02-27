@@ -1,0 +1,8 @@
+.header {
+  background: rgb(46, 47, 61);
+  border-bottom: 1px solid #d8d8d8;
+  position: fixed;
+  padding-left: 343px;
+  z-index: 1;
+ 
+}

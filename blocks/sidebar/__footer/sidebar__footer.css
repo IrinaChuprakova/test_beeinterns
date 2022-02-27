@@ -1,0 +1,6 @@
+.sidebar__footer {
+  padding: 192px 0 37px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

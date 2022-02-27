@@ -1,0 +1,13 @@
+.profile__status {
+  width: 40px;
+  height: 14px;
+  background: linear-gradient(90deg, #6b69f9 0%, #6f6eff 100%);
+  box-shadow: 0px 0px 12px rgba(111, 110, 255, 0.5);
+  border-radius: 4px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 10px;
+  padding: 2px 8px;
+  box-sizing: border-box;
+}
