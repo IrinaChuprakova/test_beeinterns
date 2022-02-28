@@ -1,5 +1,5 @@
 # Тестовое задание
-https://irinachuprakova.github.io/mesto/
+https://irinachuprakova.github.io/test_beeinterns/
 
 
 
